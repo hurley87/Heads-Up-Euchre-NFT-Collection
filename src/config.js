@@ -24,11 +24,12 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 25,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Card" },
-      { name: "AceClubs" },
+      { name: "Value" },
+      { name: "Suit" },
     ],
   },
 ];
@@ -74,7 +75,10 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  value: "Ace",
+  suit: "Clubs",
+};
 
 const rarityDelimiter = "#";
 
