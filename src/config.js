@@ -5,9 +5,10 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Heads Up Euchre";
+const description =
+  "Heads Up Euchre is a collection of NFT playing cards that offer members access to an online game and private community.";
+const baseUri = "https://www.headsupeuchre.com/metadata";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -79,10 +80,7 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {
-  value: "Ace",
-  suit: "Clubs",
-};
+const extraMetadata = {};
 
 const rarityDelimiter = "#";
 
