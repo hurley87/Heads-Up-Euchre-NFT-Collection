@@ -25,7 +25,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1200,
+    growEditionSizeTo: 1300,
     layersOrder: [
       { name: "Background" },
       { name: "Card" },
