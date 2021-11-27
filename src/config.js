@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 const namePrefix = "Heads Up Euchre";
 const description =
   "Heads Up Euchre is a collection of NFT playing cards that offer members access to an online game and private community.";
-const baseUri = "https://www.headsupeuchre.com/metadata";
+const baseUri = "ipfs://QmS51o7ktB1rWCs34AxM5GM7er43yYV2QFbeC99ajDuyTM";
 
 const solanaMetadata = {
   symbol: "YC",
